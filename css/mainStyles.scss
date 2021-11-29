@@ -1,0 +1,93 @@
+@import"./_colors";
+$input-group-addon-color:#f1c40f;          
+$input-group-addon-bg:#f1c40f;
+$input-group-addon-border-color:#f1c40f;
+$input-color:#f1c40f;
+body,a{
+    font-family:'Heebo', sans-serif !important;
+    padding: 0;
+    margin: 0;
+    color: $accentColor !important;
+    background: $mainColor !important;
+    font-size: 20px !important;
+    overflow-x: hidden;
+}
+.form-control:focus {
+    border-color:$accentColor !important;
+    box-shadow: inset 0 1px 1px $accentColor, 0 0 8px $accentColor !important;
+}
+input{
+    margin: 2px !important;
+}
+#pogodaContainer{
+    padding: 10px !important;
+    font-size: 25px !important;
+    margin: 100px auto !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: #f7b731;
+    border-radius: 10px;
+    color: $mainColor;
+    width: 45%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#pogodaContainer img{
+    height: 100px !important;
+    width: 100px !important;
+    margin-bottom: -20px !important;
+    background:#f7b731;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#pogodaSubContainer{
+    padding: 5px !important;
+    font-size: 15px !important;
+    margin: 5px !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: $mainColor;
+    width: 100%;
+    height: 100%;
+}
+#pogodaForecast{
+    display: flex;
+    float: left !important;
+    padding: 10px !important;
+    font-size: 15px !important;
+    margin: 10px auto !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: #f7b731;
+    border-radius: 10px;
+    color: $mainColor;
+    width: 24%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 5px !important;
+}
+#pogodaForecast img{
+    height: 50px !important;
+    width: 50px !important;
+    margin-bottom: -10px !important;
+    background:#f7b731;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+@media (max-width: 1024px){
+    #pogodaContainer{
+        width: 100%;
+        font-size: 20px !important;
+    }
+    #pogodaForecast{
+        width: 100%;
+        font-size: 10px !important;
+        padding: 10px !important;
+    }
+    #pogodaSubContainer{
+        flex-direction: column;
+    }
+}
