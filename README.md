@@ -10,6 +10,6 @@ Weather App with API Connection and latest Weather Info
 
 ## Contact Me
 - 📫 **contact@kubaczerepski.pl**
-- 🌐 **kubaczerepski.pl**
+- 🌐 **www.kubaczerepski.pl**
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
